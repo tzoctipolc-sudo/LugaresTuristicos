@@ -1,6 +1,4 @@
-
-   
-   header{
+ header{
         background-color: ;
         text-align:center;
          }
@@ -17,8 +15,7 @@
                height: auto;
                margin: 0 auto; 
                }
-  
-   section h1{
+ section h1{
              text-align:center;
              color:white;
              font-family: Times New Roman, sans-serif;
@@ -26,72 +23,63 @@
    
     section h2{
                text-align:center;
-               color:black;
+               color:grey;
                }
 
    section h3{
              text-align:center;
-             color:black;
+             color:white;
              }
-
-
 
 
    nav {
       width:100%;
       text-align: center;
       background-color:;
-      margin: 0;
         }
    nav a{
        display: inline-block;
        margin: 5px;
        padding: 12px 20px;
-       background-color:#01026E;
+       background-color:black;
        color:white;
        font-family:Times new roman, sans-serif;
        font-size: 1.4em;
        text-decoration: none;
        border-radius: 20px;
-       transition: background-color 0.3s, color 0.3s;
+       transition: background-color 0.10s, color 0.s;
         }
 
 nav a:hover{
           color:white;
-          background-color:#00023D;
-           } 
+          background-color:#212121;
+           }  
+
+   label {
+        padding:30px;
+        font-size: 2em
+         } 
    body {
-        margin:0;
-        background-image:url(../img/img3.jpg);
+        background-image:url(../img/CLL3.png);
         background-attachment:fixed;
         background-size:cover;
         background-repeat:no repeat;
         background-position: center;
-        margin: 0 0;
-        }
-footer{
-        background-color:blue;
-        color: white;
-        text-align:center;
-        padding: 30px;
-        font-family:Times New Roman, sans-serif;
-        }
-
-  
+        }  
    section {
            background-color:;
-           color:black;             
-           width:70%;
-           max-width: 900px;
+           color:White;             
+           width:60%;
            margin:30px auto;
-           text-align: center;
+           margin-top:30px;
+           text-aling: justify;
            font-size: 1.5em;
            text-color:blue;
            padding: 20px;
-           border-radius: 20px; 
+           border-radius: 20px;
             
            } 
-  .centrar{
+.centrar{
         text-align:center;
         }
 
@@ -100,57 +88,3 @@ footer{
             max-width: 600px;
             height: auto;      
             }
-
-.video{
-      width:100%;
-      max-width: 560px;
-      aspect-ratio: 16 / 9;
-      border:none;
-      }
-
-@media (max-width:600px){
-                        
- nav a{
-      display:block;
-      width:90%;
-      margin:10px auto; 
-      }
-      }
- 
- section{
-        width:85%;
-        font-size:18px;
-        text-align:left;
-        color:;
-        {
-
- .logo h1{
-         font-size:32px;
-         }
-         }
-
-.audio{
-      backgroun-color: blue;
-}
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
